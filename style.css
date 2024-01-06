@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+}
+section{
+    width:400px;
+    margin:50px auto;
+    box-shadow: 1.5px 1.5px 3px gray;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#btn{
+    display:block;
+    width: 100px;
+    margin:4px auto;
+}
+#inp{
+    display:block;
+    width: 400px;
+    margin:12px auto;
+    box-shadow: 0.5px 0.5px 0.5px gray;
+}
+
+h1{
+    /* width:180px; */
+    text-transform: uppercase;
+    text-align: center;
+    margin:20px;
+}
+ul{
+    list-style-type: none;
+}
+.strikeoff{
+    text-decoration:line-through;
+}
