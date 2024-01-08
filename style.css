@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://img.freepik.com/premium-photo/list-icon-notebook-with-completed-todo-list-3d-render_471402-428.jpg');
+    background-size: cover;
+}
+img{
+    height: 45px;
+    margin: 12px;
+}
+h3{
+    display: inline-block;
+    margin: 10px;
+    font-size: 30px;
+}
+.container{
+    border: 2px solid gray;
+    height: 520px;
+    width: 340px;
+    margin: 30px auto;
+    box-shadow: 2px 2px 3px lightgray;
+    overflow: auto;
+    border-radius: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #408aff;
+    color: white;
+}
+.plus{
+    height: 28px;
+}
+input{
+    width: 99.9%;
+    height: 10%;
+    padding: 4px;
+    border: 2px solid gray;
+    box-shadow: 1px 1px 3px lightgray;
+    font-family: cursive;
+}
+.list{
+    list-style-type: none;
+}
+.list img{
+    height:30px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px 10px 10px;
+    /* color: white; */
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+li:hover{
+    cursor: pointer;
+}
+li:nth-of-type(2n+1){
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,52,186,1) 0%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+li:nth-of-type(2n+2){
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+}
